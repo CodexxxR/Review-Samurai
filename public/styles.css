@@ -115,6 +115,7 @@
         max-width: 400px;
         margin: 0 auto;
       }
+      .create-review select,
       .create-review input,
       .create-review textarea{
         display: block;

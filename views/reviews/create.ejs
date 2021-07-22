@@ -7,8 +7,17 @@
 
   <div class="create-review content">
     <form action="/reviews" method="POST">
-      <label for="title">Review title:</label>
-      <input type="text" id="title" name="title" required>
+      <label for="title">Select Game:</label>
+      <!-- <input type="text" id="title" name="title" required> -->
+      <select id="title" name="title" required>
+        <option value="Counter-Strike:Global Offensive">Counter-Strike:Global Offensive</option>
+        <option value="GTA-V">GTA-V</option>
+        <option value="Valorant">Valorant</option>
+        <option value="PhasmoPhobia">PhasmoPhobia</option>
+        <option value="Rocket-League">Rocket-League</option>
+        <option value="Minecraft">Minecraft</option>
+        <option value="Mario-Kart">Mario-Kart</option>
+      </select>
       <label for="snippet">Review snippet:</label>
       <input type="text" id="snippet" name="snippet" required>
       <label for="body">Review body:</label>
