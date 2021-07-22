@@ -4,7 +4,7 @@ const reviewRoutes = require('./routes/reviewRoutes');
 const app = express();
 
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const dbURI = 'mongodb+srv://codex_r:9024676745Rp@firstapp.i8au0.mongodb.net/node?retryWrites=true&w=majority';
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
